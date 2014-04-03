@@ -1,0 +1,20 @@
+reinstall_
+reinstall_apps
+reinstall_test_server
+record_begin
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+start_test_server_in_background
+query("cordovaWebView css:'h1'")
+query("cordovaWebView css:'h1'").first
+touch(query("cordovaWebView css:'h1'").first)
+reinstall_apps
+reinstall_test_server
+reinstall_apps
+start_test_server_in_background
+query("cordovaWebView css:'h1'").first
+query("cordovaWebView css:'h1'").first.textContent
+query("cordovaWebView css:'h1'").first["textContent"]
+reinstall_apps
+start_test_server_in_background
