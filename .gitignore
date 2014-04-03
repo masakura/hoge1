@@ -1,8 +1,11 @@
 # Android
-platforms/android/assets/www
+platforms/android/assets
 platforms/android/bin
 platforms/android/gen
-platforms/android/res/xml/config.xml
+platforms/android/CordovaLib/res
+platforms/android/CordovaLib/bin
+platforms/android/CordovaLib/gen
+platforms/android/CordovaLib/libs
 
 iOS
 platforms/ios/build
