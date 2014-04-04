@@ -6,5 +6,6 @@ set_text "webView css:'#right'", "9"
 button = query("cordovaWebView css:'#calculate'").first
 touch(button)
 sleep(2)
+raise "assert" unless query("cordovaWebView css:'#result'").first["textContent"] == "22"
 quit
 
